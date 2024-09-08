@@ -39,6 +39,8 @@ bash ./m-git.sh -p <git-repo>           生成"git-repo.git"仓库
 bash ./m-git.sh -key <git-user>         重新生成git-user用户的id_rsa
 ```
 ### 补充
+```
 1./home/`<git-user>`/.ssh/id_rsa 是git用户证书，生成过程有展示，可直接复制使用
 2.删除用户直接使用系统命令userdel
 3.git地址为 git-user@git-server:/git-repo  (用户@服务器:仓库路径)
+```
